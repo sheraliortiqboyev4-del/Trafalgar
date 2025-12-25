@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #fff;
+}
+
+/* MAIN SECTION */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 120px;
+}
+
+/* LEFT SIDE */
+.hero-left img {
+  width: 480px;
+  max-width: 100%;
+}
+
+/* RIGHT SIDE */
+.hero-right {
+  max-width: 450px;
+}
+
+.hero-right h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #000;
+  line-height: 1.2;
+}
+
+.line {
+  width: 60px;
+  height: 3px;
+  background: #000;
+  margin: 20px 0;
+}
+
+.hero-right p {
+  font-size: 16px;
+  color: #7d7987;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+/* BUTTON */
+.hero-right button {
+  padding: 12px 35px;
+  font-size: 16px;
+  color: #458ff6;
+  background: transparent;
+  border: 2px solid #458ff6;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.hero-right button:hover {
+  background: #458ff6;
+  color: #fff;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 50px 30px;
+  }
+
+  .line {
+    margin: 20px auto;
+  }
+
+  .hero-left img {
+    margin-bottom: 40px;
+  }
+}
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+
+body {
+  background: #ffffff;
+}
+
+/* SECTION */
+.download {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 90px 120px;
+}
+
+/* LEFT */
+.download-left {
+  max-width: 460px;
+}
+
+.download-left h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #000;
+  line-height: 1.2;
+}
+
+.line {
+  width: 56px;
+  height: 3px;
+  background: #000;
+  margin: 25px 0;
+}
+
+.download-left p {
+  font-size: 16px;
+  color: #7d7987;
+  line-height: 1.6;
+  margin-bottom: 35px;
+}
+
+/* BUTTON */
+.btn {
+  padding: 14px 38px;
+  font-size: 16px;
+  color: #458ff6;
+  background: transparent;
+  border: 2px solid #458ff6;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.btn span {
+  margin-left: 8px;
+  font-size: 18px;
+}
+
+.btn:hover {
+  background: #458ff6;
+  color: #fff;
+}
+
+/* RIGHT */
+.download-right img {
+  width: 520px;
+  max-width: 100%;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .download {
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 50px 30px;
+  }
+
+  .line {
+    margin: 20px auto;
+  }
+
+  .download-right img {
+    margin-bottom: 40px;
+  }
+}
